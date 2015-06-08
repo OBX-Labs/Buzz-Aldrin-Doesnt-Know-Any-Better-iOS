@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Know v. 3
+
+a P.o.E.M.M. platform by Jason Edward Lewis &amp; Bruno Nadeau
+
+Buzz Aldrin Doesn’t Know Any Better is a poem about crazy talking with a street-person outside a pawn shop on a sunny San Francisco afternoon. Version 2, renamed Know, expanded on the original with a set of new poems by guest writers. Lewis &amp; Nadeau commissioned five poets to create a text that responded thematically and formally to the visual, interactive and dynamic constraints created for the original.
+
+Know v. 3 opens up Know P.o.E.M.M. app to the user, allowing her to enter her own text or assemble a text by searching on a keyword, hashtag or account name on Twitter.
+
+Know is the second app in the P.o.E.M.M. (Poem for Excitable [Mobile] Media) series. Please visit www.poemm.net for more info.
+
+Version 3.0.1
+
+Programming by Christian Gratton, Serge Maheu and Bruno Nadeau, from original code by Nadeau. Based on the NextText architecture
+
+2011 - 2013 © Jason Edward Lewis
+
+texts © their respective authors</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>About</string>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CCC5F96-EC3E-44C5-BC75-97389B8E8F62</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BuzzAldrin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA6554A6-D181-4946-B5EF-FE3A2A7F0511</key>
+		<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Know/iOS/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuzzAldrin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA6554A6-D181-4946-B5EF-FE3A2A7F0511</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>FA6554A6-D181-4946-B5EF-FE3A2A7F0511</key>
+		<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Know</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn+ssh://svn.hexagram.ca/scm/hex-prj-obx/Know/iOS/trunk/BuzzAldrin.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA6554A6-D181-4946-B5EF-FE3A2A7F0511</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>iOS/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>iOS/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>iOS/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA6554A6-D181-4946-B5EF-FE3A2A7F0511</string>
+			<key>IDESourceControlWCCName</key>
+			<string>know</string>
+		</dict>
+	</array>
+</dict>
+</plist>
