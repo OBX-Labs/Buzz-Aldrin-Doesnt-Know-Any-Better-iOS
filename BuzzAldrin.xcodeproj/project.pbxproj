@@ -12,6 +12,7 @@
 		15484C9815FE89F200E4EC5E /* olvr190bu.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 15484C9415FE89F200E4EC5E /* olvr190bu.fnt */; };
 		15484C9915FE89F200E4EC5E /* olvr190bu.png in Resources */ = {isa = PBXBuildFile; fileRef = 15484C9515FE89F200E4EC5E /* olvr190bu.png */; };
 		15A41CB81611F26C005A4632 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15A41CB71611F26C005A4632 /* Settings.bundle */; };
+		57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C77BB3203F272F00A28CE7 /* Media.xcassets */; };
 		951C5068189056E90003744C /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5067189056E90003744C /* color.png */; };
 		951C506F1890576B0003744C /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C50691890576B0003744C /* death.png */; };
 		951C50701890576B0003744C /* death@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C506A1890576B0003744C /* death@2x.png */; };
@@ -23,7 +24,6 @@
 		951C507918905B1A0003744C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507618905B1A0003744C /* Icon-120.png */; };
 		951C507A18905B1A0003744C /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507718905B1A0003744C /* Icon-152.png */; };
 		9552F1291726D9ED0049E27E /* TextClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9552F1281726D8E50049E27E /* TextClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9552F12B1727151A0049E27E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552F12A1727151A0049E27E /* Icon.png */; };
 		9560B436171F3208005B681C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B39B171F3208005B681C /* Appirater.m */; };
 		9560B437171F3208005B681C /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B39F171F3208005B681C /* DejalActivityView.m */; };
 		9560B438171F3208005B681C /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B3A3171F3208005B681C /* OKNewAccount.m */; };
@@ -132,7 +132,7 @@
 		95C3B9891721C56D00444EE6 /* OKInfoView-iPhone-Backdrop-Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C3B9861721C56C00444EE6 /* OKInfoView-iPhone-Backdrop-Texture@2x.png */; };
 		95F32342172EF1EE00B69072 /* OKInfoView_Description_iphone.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95F32341172EF1EE00B69072 /* OKInfoView_Description_iphone.txt */; };
 		95FD53FB172AD287006B2E3E /* Museo-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9560B3FB171F3208005B681C /* Museo-500.otf */; };
-		95FD5409172AEC3A006B2E3E /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FD5405172AEC3A006B2E3E /* libTestFlight.a */; };
+		95FD5409172AEC3A006B2E3E /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FD5405172AEC3A006B2E3E /* libTestFlight.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		95FD540A172AEC3A006B2E3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95FD5406172AEC3A006B2E3E /* README.md */; };
 		95FD540B172AEC3A006B2E3E /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 95FD5407172AEC3A006B2E3E /* release_notes.md */; };
 		D23B006C139EA74B0014BB81 /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B0067139EA74B0014BB81 /* Sentence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -240,6 +240,8 @@
 		15484C9415FE89F200E4EC5E /* olvr190bu.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = olvr190bu.fnt; sourceTree = "<group>"; };
 		15484C9515FE89F200E4EC5E /* olvr190bu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olvr190bu.png; sourceTree = "<group>"; };
 		15A41CB71611F26C005A4632 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		570E92952045A58E004526EF /* BuzzAldrin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzAldrin.entitlements; sourceTree = "<group>"; };
+		57C77BB3203F272F00A28CE7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
 		951C5067189056E90003744C /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
 		951C50691890576B0003744C /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
 		951C506A1890576B0003744C /* death@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death@2x.png"; sourceTree = "<group>"; };
@@ -1128,6 +1130,7 @@
 		D2B5A569139E7A7400461428 = {
 			isa = PBXGroup;
 			children = (
+				57C77BB3203F272F00A28CE7 /* Media.xcassets */,
 				15A41CB71611F26C005A4632 /* Settings.bundle */,
 				D2B5A57E139E7A7400461428 /* BuzzAldrin */,
 				D2B5A577139E7A7400461428 /* Frameworks */,
@@ -1172,6 +1175,7 @@
 		D2B5A57E139E7A7400461428 /* BuzzAldrin */ = {
 			isa = PBXGroup;
 			children = (
+				570E92952045A58E004526EF /* BuzzAldrin.entitlements */,
 				D2B5A587139E7A7400461428 /* BuzzAldrinAppDelegate.h */,
 				D2B5A588139E7A7500461428 /* BuzzAldrinAppDelegate.m */,
 				95FD5404172AEC39006B2E3E /* TestFlightSDK1.2.4 */,
@@ -1230,8 +1234,19 @@
 		D2B5A56B139E7A7400461428 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Christian Gratton";
+				TargetAttributes = {
+					D2B5A573139E7A7400461428 = {
+						DevelopmentTeam = 6B68QQG3FR;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = D2B5A56E139E7A7400461428 /* Build configuration list for PBXProject "BuzzAldrin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1404,6 +1419,7 @@
 				95749E2617257254000CD0CC /* Icon@2x.png in Resources */,
 				95749E2717257254000CD0CC /* iTunesArtwork.png in Resources */,
 				95749E2817257254000CD0CC /* iTunesArtwork@2x.png in Resources */,
+				57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */,
 				95749E2E17257265000CD0CC /* Default-568h@2x.png in Resources */,
 				95749E2F17257265000CD0CC /* Default-Landscape.png in Resources */,
 				95749E3017257265000CD0CC /* Default-Landscape@2x.png in Resources */,
@@ -1412,7 +1428,6 @@
 				95749E341725729F000CD0CC /* Icon-72.png in Resources */,
 				95749E36172572C5000CD0CC /* Icon-72@2x.png in Resources */,
 				95749E3B17258AF8000CD0CC /* know.txt in Resources */,
-				9552F12B1727151A0049E27E /* Icon.png in Resources */,
 				95FD540A172AEC3A006B2E3E /* README.md in Resources */,
 				95FD540B172AEC3A006B2E3E /* release_notes.md in Resources */,
 				95F32342172EF1EE00B69072 /* OKInfoView_Description_iphone.txt in Resources */,
@@ -1490,16 +1505,36 @@
 		15557ED213B23DB00056D2B6 /* Ad hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "05F99CCD-0666-41C6-A564-5D73E68C83BE";
@@ -1513,11 +1548,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				CODE_SIGN_ENTITLEMENTS = BuzzAldrin/BuzzAldrin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuzzAldrin/BuzzAldrin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1528,7 +1567,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
@@ -1536,9 +1575,11 @@
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05F99CCD-0666-41C6-A564-5D73E68C83BE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05F99CCD-0666-41C6-A564-5D73E68C83BE";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1547,19 +1588,40 @@
 		D2B5A598139E7A7500461428 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lewis (6994C36BD5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "61898E58-F707-4711-A6A2-D6420ED25D7E";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "61898E58-F707-4711-A6A2-D6420ED25D7E";
@@ -1571,19 +1633,36 @@
 		D2B5A599139E7A7500461428 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "30F6DC9F-C407-4BB7-9768-F1A3A0E74A89";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "75F4F684-555D-47EA-9806-FC16AE2D6266";
@@ -1596,11 +1675,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lewis (6994C36BD5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				CODE_SIGN_ENTITLEMENTS = BuzzAldrin/BuzzAldrin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuzzAldrin/BuzzAldrin-Prefix.pch";
@@ -1608,7 +1691,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
@@ -1616,9 +1699,11 @@
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "20d69e10-25a7-42de-b49d-9bad403800a4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "20d69e10-25a7-42de-b49d-9bad403800a4";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1627,18 +1712,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				CODE_SIGN_ENTITLEMENTS = BuzzAldrin/BuzzAldrin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuzzAldrin/BuzzAldrin-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
@@ -1646,9 +1735,11 @@
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
 					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "35b74428-e7f0-4c4d-8915-af18cbd918a3";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "35b74428-e7f0-4c4d-8915-af18cbd918a3";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

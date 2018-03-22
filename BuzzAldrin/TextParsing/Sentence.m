@@ -59,9 +59,10 @@
 		float widthDivision = screenWidth/[theWordObjects count];
 		
 		float halfWordWidth = [theFont getWidthForString:words.currentWord]/2;
-		float halfScreenWidthOffset = ([UIScreen mainScreen].bounds.size.height - screenWidth)/2;
+        //VICTOR - FIX LETTER SPAWNING LOCATION
+		float halfScreenWidthOffset = ([UIScreen mainScreen].bounds.size.width - screenWidth)/2;
 		float xPos = ((i * widthDivision) + (widthDivision/2));
-		float offsetX = halfScreenWidthOffset + (xPos - halfWordWidth);	
+		float offsetX = halfScreenWidthOffset + (xPos - halfWordWidth);
 		
 		//randomize the height between -30 and 30
 		int randomHeight = ((arc4random() % 60) - 30);

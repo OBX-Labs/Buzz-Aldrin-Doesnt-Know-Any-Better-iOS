@@ -32,10 +32,10 @@
 
             //calculate size and position
 			float halfWordHeight = [theFont getHeightForString:[theSentences objectAtIndex:i]]/2;
-			float halfScreenHeightOffset = ([UIScreen mainScreen].bounds.size.width - size.height)/2;
-            
+            //VICTOR - FIX LETTER SPAWNING LOCATION
+			float halfScreenHeightOffset = ([UIScreen mainScreen].bounds.size.height)/2;
 			float yPos = ((i * heightDivision) + (heightDivision/2));
-			float offsetY = ([UIScreen mainScreen].bounds.size.width - halfScreenHeightOffset) - (yPos + halfWordHeight);			
+			float offsetY = ([UIScreen mainScreen].bounds.size.height - 60) - (yPos + halfWordHeight);
 			
             //set position
 			[currentSentence setXWithWidht:size.width andYOffset:offsetY withFont:theFont];
