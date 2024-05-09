@@ -9,7 +9,6 @@
 #import "BuzzAldrinAppDelegate.h"
 #import "EAGLView.h"
 
-#import "TestFlight.h"
 #import "OKPoEMM.h"
 #import "OKPreloader.h"
 #import "OKTextManager.h"
@@ -39,9 +38,6 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
      */
-
-    //TestFlight
-    //[TestFlight takeOff:@"0802e903-2d17-4948-8282-2e22d44933b4"];
     
     if(![[NSUserDefaults standardUserDefaults] objectForKey:@"fLaunch"])
     {

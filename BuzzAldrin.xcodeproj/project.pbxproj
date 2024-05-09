@@ -134,9 +134,6 @@
 		95C3B9891721C56D00444EE6 /* OKInfoView-iPhone-Backdrop-Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C3B9861721C56C00444EE6 /* OKInfoView-iPhone-Backdrop-Texture@2x.png */; };
 		95F32342172EF1EE00B69072 /* OKInfoView_Description_iphone.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95F32341172EF1EE00B69072 /* OKInfoView_Description_iphone.txt */; };
 		95FD53FB172AD287006B2E3E /* Museo-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9560B3FB171F3208005B681C /* Museo-500.otf */; };
-		95FD5409172AEC3A006B2E3E /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FD5405172AEC3A006B2E3E /* libTestFlight.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		95FD540A172AEC3A006B2E3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95FD5406172AEC3A006B2E3E /* README.md */; };
-		95FD540B172AEC3A006B2E3E /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 95FD5407172AEC3A006B2E3E /* release_notes.md */; };
 		D23B006C139EA74B0014BB81 /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B0067139EA74B0014BB81 /* Sentence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D23B006E139EA74B0014BB81 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B006B139EA74B0014BB81 /* Word.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D23B0082139EA7990014BB81 /* CharDef.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B007B139EA7990014BB81 /* CharDef.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -401,10 +398,6 @@
 		95C3B9851721C56C00444EE6 /* OKInfoView-iPhone-Backdrop-Texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OKInfoView-iPhone-Backdrop-Texture.png"; sourceTree = "<group>"; };
 		95C3B9861721C56C00444EE6 /* OKInfoView-iPhone-Backdrop-Texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OKInfoView-iPhone-Backdrop-Texture@2x.png"; sourceTree = "<group>"; };
 		95F32341172EF1EE00B69072 /* OKInfoView_Description_iphone.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OKInfoView_Description_iphone.txt; sourceTree = "<group>"; };
-		95FD5405172AEC3A006B2E3E /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		95FD5406172AEC3A006B2E3E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		95FD5407172AEC3A006B2E3E /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		95FD5408172AEC3A006B2E3E /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		D23B0066139EA74B0014BB81 /* Sentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sentence.h; path = TextParsing/Sentence.h; sourceTree = "<group>"; };
 		D23B0067139EA74B0014BB81 /* Sentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sentence.m; path = TextParsing/Sentence.m; sourceTree = "<group>"; };
 		D23B006A139EA74B0014BB81 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Word.h; path = TextParsing/Word.h; sourceTree = "<group>"; };
@@ -540,7 +533,6 @@
 				D2B5A579139E7A7400461428 /* UIKit.framework in Frameworks */,
 				D2B5A57B139E7A7400461428 /* Foundation.framework in Frameworks */,
 				D2B5A57D139E7A7400461428 /* CoreGraphics.framework in Frameworks */,
-				95FD5409172AEC3A006B2E3E /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,17 +943,6 @@
 			name = Texts;
 			sourceTree = "<group>";
 		};
-		95FD5404172AEC39006B2E3E /* TestFlightSDK1.2.4 */ = {
-			isa = PBXGroup;
-			children = (
-				95FD5405172AEC3A006B2E3E /* libTestFlight.a */,
-				95FD5406172AEC3A006B2E3E /* README.md */,
-				95FD5407172AEC3A006B2E3E /* release_notes.md */,
-				95FD5408172AEC3A006B2E3E /* TestFlight.h */,
-			);
-			path = TestFlightSDK1.2.4;
-			sourceTree = "<group>";
-		};
 		D23BFF83139EA1950014BB81 /* TextParsing */ = {
 			isa = PBXGroup;
 			children = (
@@ -1178,7 +1159,6 @@
 				570E92952045A58E004526EF /* BuzzAldrin.entitlements */,
 				D2B5A587139E7A7400461428 /* BuzzAldrinAppDelegate.h */,
 				D2B5A588139E7A7500461428 /* BuzzAldrinAppDelegate.m */,
-				95FD5404172AEC39006B2E3E /* TestFlightSDK1.2.4 */,
 				9560B398171F3208005B681C /* OKPoEMM */,
 				D23BFF85139EA1980014BB81 /* OpenGL ES */,
 				D23BFF84139EA1960014BB81 /* FontParsing */,
@@ -1430,8 +1410,6 @@
 				95749E341725729F000CD0CC /* Icon-72.png in Resources */,
 				95749E36172572C5000CD0CC /* Icon-72@2x.png in Resources */,
 				95749E3B17258AF8000CD0CC /* know.txt in Resources */,
-				95FD540A172AEC3A006B2E3E /* README.md in Resources */,
-				95FD540B172AEC3A006B2E3E /* release_notes.md in Resources */,
 				95F32342172EF1EE00B69072 /* OKInfoView_Description_iphone.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1578,10 +1556,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/libs/Airship1.1.3\"",
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1714,10 +1690,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/libs/Airship1.1.3\"",
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1750,10 +1724,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/libs/Airship1.1.3\"",
 					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-					"\"$(SRCROOT)/BuzzAldrin/TestFlightSDK1.2.4\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
