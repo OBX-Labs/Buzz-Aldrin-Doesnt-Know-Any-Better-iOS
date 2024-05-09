@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "Appirater.h"
-//#import "UAirship.h"
 
 @class EAGLView;
 @class TextManager;

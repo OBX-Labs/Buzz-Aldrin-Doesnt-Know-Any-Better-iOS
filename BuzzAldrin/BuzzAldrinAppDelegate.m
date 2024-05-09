@@ -54,14 +54,6 @@
     if([prefs objectForKey:@"pushNotification"])
         [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
     
-    //Init Airship launch options
-    NSMutableDictionary *takeOffOptions = [[[NSMutableDictionary alloc] init] autorelease];
-    //[takeOffOptions setValue:launchOptions forKey:UAirshipTakeOffOptionsLaunchOptionsKey];
-    
-    // Create Airship singleton that's used to talk to Urban Airship servers.
-    // Please populate AirshipConfig.plist with your info from http://go.urbanairship.com
-    //[UAirship takeOff:takeOffOptions];
-    
     //Init Window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -218,8 +210,6 @@
 
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    // Updates the device token and registers the token with UA
-    //[[UAirship shared] registerDeviceToken:deviceToken];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -256,9 +246,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     [eaglView stopAnimation];
-    
-    //UrbanAirship
-    //[UAirship land];
     
     //device can sleep (since we leave)
 	[UIApplication sharedApplication].idleTimerDisabled = NO;

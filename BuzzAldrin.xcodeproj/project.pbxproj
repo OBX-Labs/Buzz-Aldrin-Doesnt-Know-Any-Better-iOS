@@ -228,7 +228,6 @@
 		D2B5A6C1139E7DE300461428 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5A6BC139E7DE300461428 /* SystemConfiguration.framework */; };
 		D2C39608153C3A0900866071 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C39607153C3A0900866071 /* MapKit.framework */; };
 		D2C3960A153C3A2300866071 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C39609153C3A2300866071 /* CoreLocation.framework */; };
-		D2C3960D153C436F00866071 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C3960C153C436F00866071 /* AirshipConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -506,7 +505,6 @@
 		D2B5A6BC139E7DE300461428 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D2C39607153C3A0900866071 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D2C39609153C3A2300866071 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D2C3960C153C436F00866071 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -987,7 +985,6 @@
 			isa = PBXGroup;
 			children = (
 				95749E3717258A99000CD0CC /* Texts */,
-				D2C3960B153C436F00866071 /* UrbanAirship */,
 				D27FD11F139EA86600191796 /* Fonts */,
 				D27FD126139EA86600191796 /* Images */,
 				D27FD12F139EA86600191796 /* Poems */,
@@ -1180,14 +1177,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2C3960B153C436F00866071 /* UrbanAirship */ = {
-			isa = PBXGroup;
-			children = (
-				D2C3960C153C436F00866071 /* AirshipConfig.plist */,
-			);
-			path = UrbanAirship;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1253,7 +1242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B5A583139E7A7400461428 /* InfoPlist.strings in Resources */,
-				D2C3960D153C436F00866071 /* AirshipConfig.plist in Resources */,
 				D2A339BB1559AFE800EDC553 /* olvr19b.fnt in Resources */,
 				D2A339BC1559AFE800EDC553 /* olvr19b.png in Resources */,
 				D2A339BD1559AFE800EDC553 /* olvr19bu.fnt in Resources */,
@@ -1552,13 +1540,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../Airship/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs/Airship1.1.3\"",
-					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1688,11 +1673,7 @@
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs/Airship1.1.3\"",
-					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1722,11 +1703,7 @@
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs/Airship1.1.3\"",
-					"\"$(SRCROOT)/libs/Airship1.2.0\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
