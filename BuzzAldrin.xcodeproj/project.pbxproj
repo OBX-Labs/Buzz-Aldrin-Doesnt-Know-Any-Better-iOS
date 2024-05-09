@@ -426,8 +426,6 @@
 		D288B96A1514F65000AF514D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D288B96C1514F67300AF514D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D288B96E1514F67A00AF514D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D288B9701514F68600AF514D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		D288B9721514F69200AF514D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D288B9741514F6A100AF514D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D288B9761514F6B700AF514D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D2A339771559AFE800EDC553 /* olvr19b.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = olvr19b.fnt; sourceTree = "<group>"; };
@@ -1159,8 +1157,6 @@
 				D2C39607153C3A0900866071 /* MapKit.framework */,
 				D288B9761514F6B700AF514D /* CFNetwork.framework */,
 				D288B9741514F6A100AF514D /* MobileCoreServices.framework */,
-				D288B9721514F69200AF514D /* libz.tbd */,
-				D288B9701514F68600AF514D /* libsqlite3.tbd */,
 				D288B96E1514F67A00AF514D /* CoreTelephony.framework */,
 				D288B96C1514F67300AF514D /* StoreKit.framework */,
 				D288B96A1514F65000AF514D /* AudioToolbox.framework */,
