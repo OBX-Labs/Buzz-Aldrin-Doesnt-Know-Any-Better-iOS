@@ -15,7 +15,6 @@
 #import "OKAppProperties.h"
 #import "OKPoEMMProperties.h"
 #import "OKInfoViewProperties.h"
-#import "Appirater.h"
 
 #define IS_IPAD_2 (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) // Or more
 #define IS_IPHONE_5 (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && [[UIScreen mainScreen] bounds].size.height == 568.0f)
@@ -204,8 +203,6 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
 
-    //Appirater after eaglview is started and a few seconds after to let everything get in motion
-    [self performSelector:@selector(manageAppirater) withObject:nil afterDelay:10.0f];
 }
 
 
@@ -258,49 +255,6 @@
     
     [super dealloc];
 }
-
-#pragma mark - Appirate
-
-- (void) manageAppirater
-{
-    [Appirater appLaunched:YES];
-    [Appirater setDelegate:self];
-    [Appirater setLeavesAppToRate:YES]; // Just too hard on the memory
-    [Appirater setAppId:@"446777294"];
-    [Appirater setDaysUntilPrompt:5];
-    [Appirater setUsesUntilPrompt:5];
-}
-
--(void)appiraterDidDisplayAlert:(Appirater *)appirater
-{
-    [eaglView stopAnimation];
-}
-
--(void)appiraterDidDeclineToRate:(Appirater *)appirater
-{
-    [eaglView startAnimation];
-}
-
--(void)appiraterDidOptToRate:(Appirater *)appirater
-{
-    [eaglView stopAnimation];
-}
-
--(void)appiraterDidOptToRemindLater:(Appirater *)appirater
-{
-    [eaglView startAnimation];
-}
-
--(void)appiraterWillPresentModalView:(Appirater *)appirater animated:(BOOL)animated
-{
-    [eaglView stopAnimation];
-}
-
--(void)appiraterDidDismissModalView:(Appirater *)appirater animated:(BOOL)animated
-{
-    [eaglView startAnimation];
-}
-
 
 
 @end

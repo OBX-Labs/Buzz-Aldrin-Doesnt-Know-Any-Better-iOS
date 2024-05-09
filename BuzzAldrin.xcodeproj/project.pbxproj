@@ -26,7 +26,6 @@
 		951C507918905B1A0003744C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507618905B1A0003744C /* Icon-120.png */; };
 		951C507A18905B1A0003744C /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507718905B1A0003744C /* Icon-152.png */; };
 		9552F1291726D9ED0049E27E /* TextClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9552F1281726D8E50049E27E /* TextClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9560B436171F3208005B681C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B39B171F3208005B681C /* Appirater.m */; };
 		9560B437171F3208005B681C /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B39F171F3208005B681C /* DejalActivityView.m */; };
 		9560B438171F3208005B681C /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B3A3171F3208005B681C /* OKNewAccount.m */; };
 		9560B439171F3208005B681C /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560B3A5171F3208005B681C /* OKRequestPassword.m */; };
@@ -253,9 +252,6 @@
 		9552F1271726D8E40049E27E /* TextClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TextClass.h; path = TextParsing/TextClass.h; sourceTree = "<group>"; };
 		9552F1281726D8E50049E27E /* TextClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TextClass.m; path = TextParsing/TextClass.m; sourceTree = "<group>"; };
 		9552F12A1727151A0049E27E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		9560B39A171F3208005B681C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		9560B39B171F3208005B681C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		9560B39C171F3208005B681C /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		9560B39E171F3208005B681C /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		9560B39F171F3208005B681C /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		9560B3A2171F3208005B681C /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
@@ -548,7 +544,6 @@
 		9560B398171F3208005B681C /* OKPoEMM */ = {
 			isa = PBXGroup;
 			children = (
-				9560B399171F3208005B681C /* Appirater */,
 				9560B39D171F3208005B681C /* DSActivityView */,
 				9560B3A0171F3208005B681C /* OKAccountManager */,
 				9560B3B1171F3208005B681C /* OKInfoView */,
@@ -565,16 +560,6 @@
 			);
 			path = OKPoEMM;
 			sourceTree = SOURCE_ROOT;
-		};
-		9560B399171F3208005B681C /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				9560B39A171F3208005B681C /* Appirater.h */,
-				9560B39B171F3208005B681C /* Appirater.m */,
-				9560B39C171F3208005B681C /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
-			sourceTree = "<group>";
 		};
 		9560B39D171F3208005B681C /* DSActivityView */ = {
 			isa = PBXGroup;
@@ -1420,7 +1405,6 @@
 				D23B0083139EA7990014BB81 /* Font.m in Sources */,
 				D23B0084139EA7990014BB81 /* Image.m in Sources */,
 				D23B0085139EA7990014BB81 /* Texture2D.m in Sources */,
-				9560B436171F3208005B681C /* Appirater.m in Sources */,
 				9560B437171F3208005B681C /* DejalActivityView.m in Sources */,
 				9560B438171F3208005B681C /* OKNewAccount.m in Sources */,
 				9560B439171F3208005B681C /* OKRequestPassword.m in Sources */,

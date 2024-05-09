@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Appirater.h"
 
 @class EAGLView;
 @class TextManager;
 @class OKPoEMM;
 
-@interface BuzzAldrinAppDelegate : UIResponder <UIApplicationDelegate, AppiraterDelegate>
+@interface BuzzAldrinAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong) OKPoEMM *poemm;
@@ -21,7 +20,6 @@
 
 - (void) setDefaultValues;
 - (void) loadOKPoEMMInFrame:(CGRect)frame;
-- (void) checkAppirater;
 - (BOOL) checkBundleVersion;
 
 @end
