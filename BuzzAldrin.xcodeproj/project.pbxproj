@@ -12,6 +12,8 @@
 		15484C9815FE89F200E4EC5E /* olvr190bu.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 15484C9415FE89F200E4EC5E /* olvr190bu.fnt */; };
 		15484C9915FE89F200E4EC5E /* olvr190bu.png in Resources */ = {isa = PBXBuildFile; fileRef = 15484C9515FE89F200E4EC5E /* olvr190bu.png */; };
 		15A41CB81611F26C005A4632 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15A41CB71611F26C005A4632 /* Settings.bundle */; };
+		277978112BED5A79006582A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978102BED5A79006582A6 /* libz.tbd */; };
+		277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978122BED5A86006582A6 /* libsqlite3.tbd */; };
 		57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C77BB3203F272F00A28CE7 /* Media.xcassets */; };
 		951C5068189056E90003744C /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5067189056E90003744C /* color.png */; };
 		951C506F1890576B0003744C /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C50691890576B0003744C /* death.png */; };
@@ -146,8 +148,6 @@
 		D288B96B1514F65000AF514D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B96A1514F65000AF514D /* AudioToolbox.framework */; };
 		D288B96D1514F67300AF514D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B96C1514F67300AF514D /* StoreKit.framework */; };
 		D288B96F1514F67A00AF514D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B96E1514F67A00AF514D /* CoreTelephony.framework */; };
-		D288B9711514F68600AF514D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B9701514F68600AF514D /* libsqlite3.dylib */; };
-		D288B9731514F69200AF514D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B9721514F69200AF514D /* libz.dylib */; };
 		D288B9751514F6A100AF514D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B9741514F6A100AF514D /* MobileCoreServices.framework */; };
 		D288B9771514F6B700AF514D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288B9761514F6B700AF514D /* CFNetwork.framework */; };
 		D2A339BB1559AFE800EDC553 /* olvr19b.fnt in Resources */ = {isa = PBXBuildFile; fileRef = D2A339771559AFE800EDC553 /* olvr19b.fnt */; };
@@ -240,6 +240,8 @@
 		15484C9415FE89F200E4EC5E /* olvr190bu.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = olvr190bu.fnt; sourceTree = "<group>"; };
 		15484C9515FE89F200E4EC5E /* olvr190bu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olvr190bu.png; sourceTree = "<group>"; };
 		15A41CB71611F26C005A4632 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		277978102BED5A79006582A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		277978122BED5A86006582A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		570E92952045A58E004526EF /* BuzzAldrin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzAldrin.entitlements; sourceTree = "<group>"; };
 		57C77BB3203F272F00A28CE7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
 		951C5067189056E90003744C /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
@@ -424,8 +426,8 @@
 		D288B96A1514F65000AF514D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D288B96C1514F67300AF514D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D288B96E1514F67A00AF514D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D288B9701514F68600AF514D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		D288B9721514F69200AF514D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D288B9701514F68600AF514D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D288B9721514F69200AF514D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D288B9741514F6A100AF514D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D288B9761514F6B700AF514D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D2A339771559AFE800EDC553 /* olvr19b.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = olvr19b.fnt; sourceTree = "<group>"; };
@@ -527,8 +529,8 @@
 				D2C39608153C3A0900866071 /* MapKit.framework in Frameworks */,
 				D288B9771514F6B700AF514D /* CFNetwork.framework in Frameworks */,
 				D288B9751514F6A100AF514D /* MobileCoreServices.framework in Frameworks */,
-				D288B9731514F69200AF514D /* libz.dylib in Frameworks */,
-				D288B9711514F68600AF514D /* libsqlite3.dylib in Frameworks */,
+				277978112BED5A79006582A6 /* libz.tbd in Frameworks */,
+				277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */,
 				D288B96F1514F67A00AF514D /* CoreTelephony.framework in Frameworks */,
 				D288B96D1514F67300AF514D /* StoreKit.framework in Frameworks */,
 				D288B96B1514F65000AF514D /* AudioToolbox.framework in Frameworks */,
@@ -1149,14 +1151,16 @@
 		D2B5A577139E7A7400461428 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				277978122BED5A86006582A6 /* libsqlite3.tbd */,
+				277978102BED5A79006582A6 /* libz.tbd */,
 				9560B49217202BEF005B681C /* Social.framework */,
 				9560B49017202BE1005B681C /* Accounts.framework */,
 				D2C39609153C3A2300866071 /* CoreLocation.framework */,
 				D2C39607153C3A0900866071 /* MapKit.framework */,
 				D288B9761514F6B700AF514D /* CFNetwork.framework */,
 				D288B9741514F6A100AF514D /* MobileCoreServices.framework */,
-				D288B9721514F69200AF514D /* libz.dylib */,
-				D288B9701514F68600AF514D /* libsqlite3.dylib */,
+				D288B9721514F69200AF514D /* libz.tbd */,
+				D288B9701514F68600AF514D /* libsqlite3.tbd */,
 				D288B96E1514F67A00AF514D /* CoreTelephony.framework */,
 				D288B96C1514F67300AF514D /* StoreKit.framework */,
 				D288B96A1514F65000AF514D /* AudioToolbox.framework */,
