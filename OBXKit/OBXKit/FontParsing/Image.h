@@ -6,7 +6,7 @@
 //
 #import <Foundation/Foundation.h>
 #import "Texture2D.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 
 typedef struct _Quad2
 {
@@ -51,7 +51,7 @@ typedef struct _Quad2
     // Colour Filter = Red, Green, Blue, Alpha
     float            colourFilter[4];
     //App Delegate
-    BuzzAldrinAppDelegate *appDelegate;
+    AppDelegate *appDelegate;
     //Vertex Arrays
     Quad2 *vertices;
     Quad2 *texCoords;

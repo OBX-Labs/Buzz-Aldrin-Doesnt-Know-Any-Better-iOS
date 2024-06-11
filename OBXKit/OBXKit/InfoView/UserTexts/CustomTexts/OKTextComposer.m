@@ -13,7 +13,7 @@
 #import "OKTextManager.h"
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 #import "EAGLView.h"
 
 
@@ -120,7 +120,7 @@ static int MAX_CHARS_PER_LINE;
     {
         // Switch the text
         //[[CCDirector sharedDirector] replaceScene:[WTSWTSTM scene]];
-        BuzzAldrinAppDelegate *delegate = (BuzzAldrinAppDelegate*)[[UIApplication sharedApplication] delegate];
+        AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
         [[delegate eaglView] setupFont];
     }
     else

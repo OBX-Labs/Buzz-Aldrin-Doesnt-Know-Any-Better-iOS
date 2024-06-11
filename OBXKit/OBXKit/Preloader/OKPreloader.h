@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class BuzzAldrinAppDelegate;
+@class AppDelegate;
 
 @interface OKPreloader : UIViewController
 {
     CGRect frame;
-    BuzzAldrinAppDelegate *delegate;
+    AppDelegate *delegate;
     BOOL loadOnAppear;
 }
 
-- (id) initWithFrame:(CGRect)aFrame forApp:(BuzzAldrinAppDelegate*)aDelegate loadOnAppear:(BOOL)flag;
+- (id) initWithFrame:(CGRect)aFrame forApp:(AppDelegate*)aDelegate loadOnAppear:(BOOL)flag;
 
 @end

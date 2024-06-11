@@ -17,7 +17,7 @@
 #import "OKPoEMMProperties.h"
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 #import "EAGLView.h"
 
 
@@ -195,7 +195,7 @@ static BOOL hasUpdatedOnce = NO;
     if([[OKTextManager sharedInstance] loadTextFromPackage:aPackage atIndex:0])
     {
         // Switch the text
-        BuzzAldrinAppDelegate *delegate = (BuzzAldrinAppDelegate*)[[UIApplication sharedApplication] delegate];
+        AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
         [[delegate eaglView] setupFont];
     }
     else

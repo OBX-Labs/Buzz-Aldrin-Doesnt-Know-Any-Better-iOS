@@ -198,6 +198,7 @@
 		2753028A2C18F92500F96FE9 /* Sentence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sentence.m; sourceTree = "<group>"; };
 		2753028D2C18F92B00F96FE9 /* Word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		2753028E2C18F92B00F96FE9 /* Word.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		275302912C18F9F100F96FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		275BE6F12C17AC3C000C63A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6F32C17AC42000C63A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6F52C17ACC6000C63A4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
@@ -461,6 +462,7 @@
 				27A92CD32C179572006A3657 /* OKNavigationController.m */,
 				27A92CD62C1795C4006A3657 /* OKPoEMMProperties.h */,
 				27A92CD72C1795C4006A3657 /* OKPoEMMProperties.m */,
+				275302912C18F9F100F96FE9 /* AppDelegate.h */,
 			);
 			path = OBXKit;
 			sourceTree = "<group>";

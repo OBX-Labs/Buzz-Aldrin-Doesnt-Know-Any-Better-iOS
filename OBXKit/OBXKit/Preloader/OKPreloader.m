@@ -7,7 +7,7 @@
 //
 
 #import "OKPreloader.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 #import "OKAppProperties.h"
 
 #define M_PI 3.14159265358979323846264338327950288f
@@ -19,7 +19,7 @@
 
 @implementation OKPreloader
 
-- (id) initWithFrame:(CGRect)aFrame forApp:(BuzzAldrinAppDelegate *)aDelegate loadOnAppear:(BOOL)flag
+- (id) initWithFrame:(CGRect)aFrame forApp:(AppDelegate *)aDelegate loadOnAppear:(BOOL)flag
 {
     self = [super init];
     if(self)

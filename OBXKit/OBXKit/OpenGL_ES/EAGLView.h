@@ -12,7 +12,7 @@
 #import "ESRenderer.h"
 #import "Font.h"
 
-@class BuzzAldrinAppDelegate;
+@class AppDelegate;
 
 // This class wraps the CAEAGLLayer from CoreAnimation into a convenient UIView subclass.
 // The view content is basically an EAGL surface you render your OpenGL scene into.

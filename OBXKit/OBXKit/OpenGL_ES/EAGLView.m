@@ -7,8 +7,7 @@
 
 #import "EAGLView.h"
 #import "ES1Renderer.h"
-#import "BuzzAldrinAppDelegate.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 #import "OKPoEMMProperties.h"
 #import "OKTextManager.h"
 

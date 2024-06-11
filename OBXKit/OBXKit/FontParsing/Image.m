@@ -6,6 +6,7 @@
 //
 
 #import "Image.h"
+#import "AppDelegate.h"
 
 // Private methods
 @interface Image ()
@@ -52,7 +53,7 @@
     colourFilter[3] = 1.0f;
     
     //init app delegate
-    appDelegate = (BuzzAldrinAppDelegate *)[[UIApplication sharedApplication] delegate];
+    appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
     // Init vertex arrays
     int totalQuads = 1;

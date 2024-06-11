@@ -16,7 +16,7 @@
 #import "DejalActivityView.h"
 #import "OKNavigationController.h"
 #import "EAGLView.h"
-#import "BuzzAldrinAppDelegate.h"
+#import "AppDelegate.h"
 
 
 static float TEXTFIELD_PADDING = 10.0f;
@@ -90,7 +90,7 @@ static CGRect DEFAULT_FRAME;
         if([[OKTextManager sharedInstance] saveCustomText:feed forTitle:cFeed])
         {
             // Switch the text
-            BuzzAldrinAppDelegate *delegate = (BuzzAldrinAppDelegate*)[[UIApplication sharedApplication] delegate];
+            AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
             [[delegate eaglView] setupFont];
         }
         else
