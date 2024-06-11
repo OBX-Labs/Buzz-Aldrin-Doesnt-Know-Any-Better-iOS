@@ -21,6 +21,12 @@
 		275302802C18F72000F96FE9 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753027E2C18F72000F96FE9 /* Image.m */; };
 		275302832C18F73000F96FE9 /* Texture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302812C18F73000F96FE9 /* Texture2D.h */; };
 		275302842C18F73000F96FE9 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302822C18F73000F96FE9 /* Texture2D.m */; };
+		275302872C18F91A00F96FE9 /* TextClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302852C18F91A00F96FE9 /* TextClass.h */; };
+		275302882C18F91A00F96FE9 /* TextClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302862C18F91A00F96FE9 /* TextClass.m */; };
+		2753028B2C18F92500F96FE9 /* Sentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302892C18F92500F96FE9 /* Sentence.h */; };
+		2753028C2C18F92500F96FE9 /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753028A2C18F92500F96FE9 /* Sentence.m */; };
+		2753028F2C18F92B00F96FE9 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753028D2C18F92B00F96FE9 /* Word.h */; };
+		275302902C18F92B00F96FE9 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753028E2C18F92B00F96FE9 /* Word.m */; };
 		275BE6F22C17AC3C000C63A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F12C17AC3C000C63A4 /* Foundation.framework */; };
 		275BE6F42C17AC42000C63A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F32C17AC42000C63A4 /* UIKit.framework */; };
 		275BE6F62C17ACC6000C63A4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F52C17ACC6000C63A4 /* Social.framework */; };
@@ -186,6 +192,12 @@
 		2753027E2C18F72000F96FE9 /* Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		275302812C18F73000F96FE9 /* Texture2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
 		275302822C18F73000F96FE9 /* Texture2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		275302852C18F91A00F96FE9 /* TextClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextClass.h; sourceTree = "<group>"; };
+		275302862C18F91A00F96FE9 /* TextClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextClass.m; sourceTree = "<group>"; };
+		275302892C18F92500F96FE9 /* Sentence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sentence.h; sourceTree = "<group>"; };
+		2753028A2C18F92500F96FE9 /* Sentence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sentence.m; sourceTree = "<group>"; };
+		2753028D2C18F92B00F96FE9 /* Word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		2753028E2C18F92B00F96FE9 /* Word.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		275BE6F12C17AC3C000C63A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6F32C17AC42000C63A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6F52C17ACC6000C63A4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
@@ -370,6 +382,12 @@
 		275302732C18F6E800F96FE9 /* TextParsing */ = {
 			isa = PBXGroup;
 			children = (
+				275302852C18F91A00F96FE9 /* TextClass.h */,
+				275302862C18F91A00F96FE9 /* TextClass.m */,
+				275302892C18F92500F96FE9 /* Sentence.h */,
+				2753028A2C18F92500F96FE9 /* Sentence.m */,
+				2753028D2C18F92B00F96FE9 /* Word.h */,
+				2753028E2C18F92B00F96FE9 /* Word.m */,
 			);
 			path = TextParsing;
 			sourceTree = "<group>";
@@ -837,11 +855,13 @@
 				27A92D122C179CD1006A3657 /* OKAbout.h in Headers */,
 				275302682C18F41B00F96FE9 /* EAGLView.h in Headers */,
 				27A92D1C2C179D05006A3657 /* OKMoreApps.h in Headers */,
+				275302872C18F91A00F96FE9 /* TextClass.h in Headers */,
 				275302772C18F70100F96FE9 /* CharDef.h in Headers */,
 				27A92D5D2C17A602006A3657 /* OKAppProperties.h in Headers */,
 				27A92D172C179CF1006A3657 /* OKInfoText.h in Headers */,
 				2753027F2C18F72000F96FE9 /* Image.h in Headers */,
 				27A92CE82C179894006A3657 /* OKRegistration.h in Headers */,
+				2753028F2C18F92B00F96FE9 /* Word.h in Headers */,
 				27A92D0A2C179AEA006A3657 /* OKInfoViewProperties.h in Headers */,
 				27A92D022C1799F2006A3657 /* OKSignIn.h in Headers */,
 				2753026C2C18F42700F96FE9 /* ES1Renderer.h in Headers */,
@@ -863,6 +883,7 @@
 				27A92D482C17A330006A3657 /* OKTextComposer.h in Headers */,
 				27A92D3E2C17A2A3006A3657 /* OKUserTexts.h in Headers */,
 				27A92CEE2C179912006A3657 /* OKLimitedEdition.h in Headers */,
+				2753028B2C18F92500F96FE9 /* Sentence.h in Headers */,
 				27A92CD02C179527006A3657 /* OKPoEMM.h in Headers */,
 				27A92D062C179ADF006A3657 /* OKInfoView.h in Headers */,
 			);
@@ -1030,6 +1051,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A92CF72C1799B8006A3657 /* OKNewAccount.m in Sources */,
+				275302882C18F91A00F96FE9 /* TextClass.m in Sources */,
 				27A92CF32C17991F006A3657 /* OKPublisher.m in Sources */,
 				27A92D182C179CF1006A3657 /* OKInfoText.m in Sources */,
 				275302842C18F73000F96FE9 /* Texture2D.m in Sources */,
@@ -1059,6 +1081,7 @@
 				27A92D0B2C179AEA006A3657 /* OKInfoViewProperties.m in Sources */,
 				275302782C18F70100F96FE9 /* CharDef.m in Sources */,
 				275302692C18F41B00F96FE9 /* EAGLView.m in Sources */,
+				2753028C2C18F92500F96FE9 /* Sentence.m in Sources */,
 				2753026D2C18F42700F96FE9 /* ES1Renderer.m in Sources */,
 				27A92D252C17A07F006A3657 /* OKGuestPoets.m in Sources */,
 				27A92D2E2C17A11F006A3657 /* OKShare.m in Sources */,
@@ -1068,6 +1091,7 @@
 				27A92CD92C1795C4006A3657 /* OKPoEMMProperties.m in Sources */,
 				27A92CE52C179662006A3657 /* DejalActivityView.m in Sources */,
 				27A92D3F2C17A2A3006A3657 /* OKUserTexts.m in Sources */,
+				275302902C18F92B00F96FE9 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
