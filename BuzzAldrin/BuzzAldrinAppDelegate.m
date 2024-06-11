@@ -7,14 +7,14 @@
 //
 
 #import "BuzzAldrinAppDelegate.h"
-#import "EAGLView.h"
+#import <OBXKit/EAGLView.h>
 
-#import "OKPoEMM.h"
-#import "OKPreloader.h"
-#import "OKTextManager.h"
-#import "OKAppProperties.h"
-#import "OKPoEMMProperties.h"
-#import "OKInfoViewProperties.h"
+#import <ObxKit/OKPoEMM.h>
+#import <ObxKit/OKPreloader.h>
+#import <ObxKit/OKTextManager.h>
+#import <ObxKit/OKAppProperties.h>
+#import <ObxKit/OKPoEMMProperties.h>
+#import <ObxKit/OKInfoViewProperties.h>
 
 #define IS_IPAD_2 (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) // Or more
 #define IS_IPHONE_5 (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && [[UIScreen mainScreen] bounds].size.height == 568.0f)
@@ -24,8 +24,7 @@
 
 @synthesize window, poemm, eaglView;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions   
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     /*
     //check if we run the app for the first time or not
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"kNOT_FIRST_LAUNCH"]) {
@@ -71,8 +70,7 @@
     NSString *appName = [OKAppProperties objectForKey:@"Name"];
     
     NSString *master = [NSString stringWithFormat:@"net.obxlabs.%@.jlewis.%@", appName, appName];
-    if(textKey != nil)
-    {
+    if(textKey != nil) {
         //save default key, just in case
         NSString* defaultTextKey = [[OKTextManager sharedInstance] getDefaultPackage];
         
@@ -164,10 +162,7 @@
     return NO;
 }
 
-
-
-- (void) setDefaultValues
-{
+- (void) setDefaultValues {
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"exhibition_preference"];
     /* There seems to be an issue with the Bundle Version being 3.0.10 instead of 2.0.0 so I set the default value instead of getting the current one
      [[NSUserDefaults standardUserDefaults] setValue:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] forKey:@"version_preference"];
@@ -180,8 +175,7 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (void) loadOKPoEMMInFrame:(CGRect)frame
-{
+- (void) loadOKPoEMMInFrame:(CGRect)frame {
     // Initialize EAGLView (OpenGL)
     eaglView = [[EAGLView alloc] initWithFrame:frame multisampling:SHOULD_MULTISAMPLE andSamples:2];
     
@@ -205,19 +199,16 @@
 
 }
 
-
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
-{
+- (void)applicationWillResignActive:(UIApplication *)application {
     [UIApplication sharedApplication].idleTimerDisabled = NO;
    
      [eaglView stopAnimation];
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
+- (void)applicationDidBecomeActive:(UIApplication *)application {
     NSLog(@"Application Did Become Active");
 
 
@@ -240,16 +231,14 @@
     [eaglView startAnimation];
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
-{
+- (void)applicationWillTerminate:(UIApplication *)application {
     [eaglView stopAnimation];
     
     //device can sleep (since we leave)
 	[UIApplication sharedApplication].idleTimerDisabled = NO;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     [window release];
     [eaglView release];   
     
