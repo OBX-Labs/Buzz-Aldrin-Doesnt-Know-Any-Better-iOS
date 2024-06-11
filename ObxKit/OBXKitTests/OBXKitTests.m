@@ -1,17 +1,17 @@
 //
-//  ObxKitTests.m
-//  ObxKitTests
+//  OBXKitTests.m
+//  OBXKitTests
 //
 //  Created by Muhammad Shahrom Ali on 2024-06-06.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ObxKitTests : XCTestCase
+@interface OBXKitTests : XCTestCase
 
 @end
 
-@implementation ObxKitTests
+@implementation OBXKitTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

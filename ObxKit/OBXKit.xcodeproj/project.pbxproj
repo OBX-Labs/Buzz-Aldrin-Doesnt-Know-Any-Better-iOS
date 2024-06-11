@@ -13,9 +13,9 @@
 		275BE6F92C17AD1F000C63A4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F72C17ACCE000C63A4 /* Accounts.framework */; };
 		275BE6FB2C17AD2B000C63A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6FA2C17AD2B000C63A4 /* QuartzCore.framework */; };
 		275BE6FD2C17AD59000C63A4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6FC2C17AD59000C63A4 /* MessageUI.framework */; };
-		276D548F2C1256600006FB3F /* ObxKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 276D548E2C1256600006FB3F /* ObxKit.docc */; };
-		276D54952C1256600006FB3F /* ObxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D548A2C1256600006FB3F /* ObxKit.framework */; };
-		276D549A2C1256600006FB3F /* ObxKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D54992C1256600006FB3F /* ObxKitTests.m */; };
+		276D548F2C1256600006FB3F /* OBXKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 276D548E2C1256600006FB3F /* OBXKit.docc */; };
+		276D54952C1256600006FB3F /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D548A2C1256600006FB3F /* OBXKit.framework */; };
+		276D549A2C1256600006FB3F /* OBXKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D54992C1256600006FB3F /* OBXKitTests.m */; };
 		27A92CD02C179527006A3657 /* OKPoEMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CCE2C179527006A3657 /* OKPoEMM.h */; };
 		27A92CD12C179527006A3657 /* OKPoEMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CCF2C179527006A3657 /* OKPoEMM.m */; };
 		27A92CD42C179572006A3657 /* OKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CD22C179572006A3657 /* OKNavigationController.h */; };
@@ -163,10 +163,10 @@
 		275BE6F72C17ACCE000C63A4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6FA2C17AD2B000C63A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		275BE6FC2C17AD59000C63A4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
-		276D548A2C1256600006FB3F /* ObxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		276D548E2C1256600006FB3F /* ObxKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ObxKit.docc; sourceTree = "<group>"; };
-		276D54942C1256600006FB3F /* ObxKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObxKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		276D54992C1256600006FB3F /* ObxKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObxKitTests.m; sourceTree = "<group>"; };
+		276D548A2C1256600006FB3F /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276D548E2C1256600006FB3F /* OBXKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = OBXKit.docc; sourceTree = "<group>"; };
+		276D54942C1256600006FB3F /* OBXKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBXKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276D54992C1256600006FB3F /* OBXKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBXKitTests.m; sourceTree = "<group>"; };
 		27A92CCE2C179527006A3657 /* OKPoEMM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKPoEMM.h; sourceTree = "<group>"; };
 		27A92CCF2C179527006A3657 /* OKPoEMM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKPoEMM.m; sourceTree = "<group>"; };
 		27A92CD22C179572006A3657 /* OKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKNavigationController.h; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276D54952C1256600006FB3F /* ObxKit.framework in Frameworks */,
+				276D54952C1256600006FB3F /* OBXKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +340,8 @@
 		276D54802C1256600006FB3F = {
 			isa = PBXGroup;
 			children = (
-				276D548C2C1256600006FB3F /* ObxKit */,
-				276D54982C1256600006FB3F /* ObxKitTests */,
+				276D548C2C1256600006FB3F /* OBXKit */,
+				276D54982C1256600006FB3F /* OBXKitTests */,
 				276D548B2C1256600006FB3F /* Products */,
 				275BE6F02C17AC3C000C63A4 /* Frameworks */,
 			);
@@ -350,13 +350,13 @@
 		276D548B2C1256600006FB3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				276D548A2C1256600006FB3F /* ObxKit.framework */,
-				276D54942C1256600006FB3F /* ObxKitTests.xctest */,
+				276D548A2C1256600006FB3F /* OBXKit.framework */,
+				276D54942C1256600006FB3F /* OBXKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		276D548C2C1256600006FB3F /* ObxKit */ = {
+		276D548C2C1256600006FB3F /* OBXKit */ = {
 			isa = PBXGroup;
 			children = (
 				27A92CE02C179606006A3657 /* Resources */,
@@ -366,7 +366,7 @@
 				27A92CDC2C1795D9006A3657 /* DSActivityView */,
 				27A92CDB2C1795D3006A3657 /* AccountManager */,
 				27A92CDA2C1795CC006A3657 /* InfoView */,
-				276D548E2C1256600006FB3F /* ObxKit.docc */,
+				276D548E2C1256600006FB3F /* OBXKit.docc */,
 				27A92CCE2C179527006A3657 /* OKPoEMM.h */,
 				27A92CCF2C179527006A3657 /* OKPoEMM.m */,
 				27A92CD22C179572006A3657 /* OKNavigationController.h */,
@@ -374,15 +374,15 @@
 				27A92CD62C1795C4006A3657 /* OKPoEMMProperties.h */,
 				27A92CD72C1795C4006A3657 /* OKPoEMMProperties.m */,
 			);
-			path = ObxKit;
+			path = OBXKit;
 			sourceTree = "<group>";
 		};
-		276D54982C1256600006FB3F /* ObxKitTests */ = {
+		276D54982C1256600006FB3F /* OBXKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				276D54992C1256600006FB3F /* ObxKitTests.m */,
+				276D54992C1256600006FB3F /* OBXKitTests.m */,
 			);
-			path = ObxKitTests;
+			path = OBXKitTests;
 			sourceTree = "<group>";
 		};
 		27A92CDA2C1795CC006A3657 /* InfoView */ = {
@@ -795,9 +795,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		276D54892C1256600006FB3F /* ObxKit */ = {
+		276D54892C1256600006FB3F /* OBXKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 276D549E2C1256600006FB3F /* Build configuration list for PBXNativeTarget "ObxKit" */;
+			buildConfigurationList = 276D549E2C1256600006FB3F /* Build configuration list for PBXNativeTarget "OBXKit" */;
 			buildPhases = (
 				276D54852C1256600006FB3F /* Headers */,
 				276D54862C1256600006FB3F /* Sources */,
@@ -808,14 +808,14 @@
 			);
 			dependencies = (
 			);
-			name = ObxKit;
+			name = OBXKit;
 			productName = ObxKit;
-			productReference = 276D548A2C1256600006FB3F /* ObxKit.framework */;
+			productReference = 276D548A2C1256600006FB3F /* OBXKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		276D54932C1256600006FB3F /* ObxKitTests */ = {
+		276D54932C1256600006FB3F /* OBXKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 276D54A12C1256600006FB3F /* Build configuration list for PBXNativeTarget "ObxKitTests" */;
+			buildConfigurationList = 276D54A12C1256600006FB3F /* Build configuration list for PBXNativeTarget "OBXKitTests" */;
 			buildPhases = (
 				276D54902C1256600006FB3F /* Sources */,
 				276D54912C1256600006FB3F /* Frameworks */,
@@ -826,9 +826,9 @@
 			dependencies = (
 				276D54972C1256600006FB3F /* PBXTargetDependency */,
 			);
-			name = ObxKitTests;
+			name = OBXKitTests;
 			productName = ObxKitTests;
-			productReference = 276D54942C1256600006FB3F /* ObxKitTests.xctest */;
+			productReference = 276D54942C1256600006FB3F /* OBXKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -848,7 +848,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 276D54842C1256600006FB3F /* Build configuration list for PBXProject "ObxKit" */;
+			buildConfigurationList = 276D54842C1256600006FB3F /* Build configuration list for PBXProject "OBXKit" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -861,8 +861,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				276D54892C1256600006FB3F /* ObxKit */,
-				276D54932C1256600006FB3F /* ObxKitTests */,
+				276D54892C1256600006FB3F /* OBXKit */,
+				276D54932C1256600006FB3F /* OBXKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -980,7 +980,7 @@
 				27A92D0B2C179AEA006A3657 /* OKInfoViewProperties.m in Sources */,
 				27A92D252C17A07F006A3657 /* OKGuestPoets.m in Sources */,
 				27A92D2E2C17A11F006A3657 /* OKShare.m in Sources */,
-				276D548F2C1256600006FB3F /* ObxKit.docc in Sources */,
+				276D548F2C1256600006FB3F /* OBXKit.docc in Sources */,
 				27A92CD52C179572006A3657 /* OKNavigationController.m in Sources */,
 				27A92D1D2C179D05006A3657 /* OKMoreApps.m in Sources */,
 				27A92CD92C1795C4006A3657 /* OKPoEMMProperties.m in Sources */,
@@ -993,7 +993,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276D549A2C1256600006FB3F /* ObxKitTests.m in Sources */,
+				276D549A2C1256600006FB3F /* OBXKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,7 +1002,7 @@
 /* Begin PBXTargetDependency section */
 		276D54972C1256600006FB3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 276D54892C1256600006FB3F /* ObxKit */;
+			target = 276D54892C1256600006FB3F /* OBXKit */;
 			targetProxy = 276D54962C1256600006FB3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1219,7 +1219,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		276D54842C1256600006FB3F /* Build configuration list for PBXProject "ObxKit" */ = {
+		276D54842C1256600006FB3F /* Build configuration list for PBXProject "OBXKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276D549C2C1256600006FB3F /* Debug */,
@@ -1228,7 +1228,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		276D549E2C1256600006FB3F /* Build configuration list for PBXNativeTarget "ObxKit" */ = {
+		276D549E2C1256600006FB3F /* Build configuration list for PBXNativeTarget "OBXKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276D549F2C1256600006FB3F /* Debug */,
@@ -1237,7 +1237,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		276D54A12C1256600006FB3F /* Build configuration list for PBXNativeTarget "ObxKitTests" */ = {
+		276D54A12C1256600006FB3F /* Build configuration list for PBXNativeTarget "OBXKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276D54A22C1256600006FB3F /* Debug */,
