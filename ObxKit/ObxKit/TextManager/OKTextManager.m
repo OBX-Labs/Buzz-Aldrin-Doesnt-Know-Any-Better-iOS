@@ -9,6 +9,7 @@
 #import "OKTextManager.h"
 #import "OKPoEMMProperties.h"
 #import "OKInfoViewProperties.h"
+#import <UIKit/UIDevice.h>
 
 static OKTextManager *sharedInstance;
 

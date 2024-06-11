@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275BE6F22C17AC3C000C63A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F12C17AC3C000C63A4 /* Foundation.framework */; };
+		275BE6F42C17AC42000C63A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F32C17AC42000C63A4 /* UIKit.framework */; };
+		275BE6F62C17ACC6000C63A4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F52C17ACC6000C63A4 /* Social.framework */; };
+		275BE6F92C17AD1F000C63A4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F72C17ACCE000C63A4 /* Accounts.framework */; };
+		275BE6FB2C17AD2B000C63A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6FA2C17AD2B000C63A4 /* QuartzCore.framework */; };
+		275BE6FD2C17AD59000C63A4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6FC2C17AD59000C63A4 /* MessageUI.framework */; };
 		276D548F2C1256600006FB3F /* ObxKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 276D548E2C1256600006FB3F /* ObxKit.docc */; };
 		276D54952C1256600006FB3F /* ObxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D548A2C1256600006FB3F /* ObxKit.framework */; };
 		276D549A2C1256600006FB3F /* ObxKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D54992C1256600006FB3F /* ObxKitTests.m */; };
@@ -151,6 +157,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275BE6F12C17AC3C000C63A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		275BE6F32C17AC42000C63A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		275BE6F52C17ACC6000C63A4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		275BE6F72C17ACCE000C63A4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		275BE6FA2C17AD2B000C63A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		275BE6FC2C17AD59000C63A4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/iOSSupport/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		276D548A2C1256600006FB3F /* ObxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276D548E2C1256600006FB3F /* ObxKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ObxKit.docc; sourceTree = "<group>"; };
 		276D54942C1256600006FB3F /* ObxKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObxKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,6 +304,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275BE6FD2C17AD59000C63A4 /* MessageUI.framework in Frameworks */,
+				275BE6FB2C17AD2B000C63A4 /* QuartzCore.framework in Frameworks */,
+				275BE6F92C17AD1F000C63A4 /* Accounts.framework in Frameworks */,
+				275BE6F62C17ACC6000C63A4 /* Social.framework in Frameworks */,
+				275BE6F42C17AC42000C63A4 /* UIKit.framework in Frameworks */,
+				275BE6F22C17AC3C000C63A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +324,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275BE6F02C17AC3C000C63A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275BE6FC2C17AD59000C63A4 /* MessageUI.framework */,
+				275BE6FA2C17AD2B000C63A4 /* QuartzCore.framework */,
+				275BE6F72C17ACCE000C63A4 /* Accounts.framework */,
+				275BE6F52C17ACC6000C63A4 /* Social.framework */,
+				275BE6F32C17AC42000C63A4 /* UIKit.framework */,
+				275BE6F12C17AC3C000C63A4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		276D54802C1256600006FB3F = {
 			isa = PBXGroup;
 			children = (
 				276D548C2C1256600006FB3F /* ObxKit */,
 				276D54982C1256600006FB3F /* ObxKitTests */,
 				276D548B2C1256600006FB3F /* Products */,
+				275BE6F02C17AC3C000C63A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

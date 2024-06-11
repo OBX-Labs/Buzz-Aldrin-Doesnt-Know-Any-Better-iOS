@@ -7,6 +7,7 @@
 //
 
 #import "OKAppProperties.h"
+#import <UIKit/UIDevice.h>
 
 // Properties name constants of static parameters (plist)
 // These values can be used throughout different poemm apps, they should not change

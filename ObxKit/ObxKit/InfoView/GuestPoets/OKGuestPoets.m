@@ -6,6 +6,9 @@
 //  Copyright (c) 2024 Obx Labs. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+#import <UIKit/UIApplication.h>
+
 #import "OKGuestPoets.h"
 #import "OKInfoViewProperties.h"
 

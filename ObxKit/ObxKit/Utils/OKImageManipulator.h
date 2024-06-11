@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIGraphics.h>
+#import <UIKit/UIImage.h>
 
 @interface OKImageManipulator : NSObject
 
