@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		275302682C18F41B00F96FE9 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302662C18F41B00F96FE9 /* EAGLView.h */; };
+		275302682C18F41B00F96FE9 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302662C18F41B00F96FE9 /* EAGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302692C18F41B00F96FE9 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302672C18F41B00F96FE9 /* EAGLView.m */; };
-		2753026C2C18F42700F96FE9 /* ES1Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753026A2C18F42700F96FE9 /* ES1Renderer.h */; };
+		2753026C2C18F42700F96FE9 /* ES1Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753026A2C18F42700F96FE9 /* ES1Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2753026D2C18F42700F96FE9 /* ES1Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753026B2C18F42700F96FE9 /* ES1Renderer.m */; };
 		275302702C18F4FF00F96FE9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753026F2C18F4FF00F96FE9 /* OpenGLES.framework */; platformFilter = ios; };
 		275302722C18F50700F96FE9 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275302712C18F50700F96FE9 /* Metal.framework */; };
-		275302772C18F70100F96FE9 /* CharDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302752C18F70100F96FE9 /* CharDef.h */; };
+		275302772C18F70100F96FE9 /* CharDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302752C18F70100F96FE9 /* CharDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302782C18F70100F96FE9 /* CharDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302762C18F70100F96FE9 /* CharDef.m */; };
-		2753027B2C18F71200F96FE9 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302792C18F71200F96FE9 /* Font.h */; };
+		2753027B2C18F71200F96FE9 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302792C18F71200F96FE9 /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2753027C2C18F71200F96FE9 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753027A2C18F71200F96FE9 /* Font.m */; };
-		2753027F2C18F72000F96FE9 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753027D2C18F72000F96FE9 /* Image.h */; };
+		2753027F2C18F72000F96FE9 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753027D2C18F72000F96FE9 /* Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302802C18F72000F96FE9 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753027E2C18F72000F96FE9 /* Image.m */; };
-		275302832C18F73000F96FE9 /* Texture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302812C18F73000F96FE9 /* Texture2D.h */; };
+		275302832C18F73000F96FE9 /* Texture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302812C18F73000F96FE9 /* Texture2D.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302842C18F73000F96FE9 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302822C18F73000F96FE9 /* Texture2D.m */; };
-		275302872C18F91A00F96FE9 /* TextClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302852C18F91A00F96FE9 /* TextClass.h */; };
+		275302872C18F91A00F96FE9 /* TextClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302852C18F91A00F96FE9 /* TextClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302882C18F91A00F96FE9 /* TextClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 275302862C18F91A00F96FE9 /* TextClass.m */; };
-		2753028B2C18F92500F96FE9 /* Sentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302892C18F92500F96FE9 /* Sentence.h */; };
+		2753028B2C18F92500F96FE9 /* Sentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302892C18F92500F96FE9 /* Sentence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2753028C2C18F92500F96FE9 /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753028A2C18F92500F96FE9 /* Sentence.m */; };
-		2753028F2C18F92B00F96FE9 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753028D2C18F92B00F96FE9 /* Word.h */; };
+		2753028F2C18F92B00F96FE9 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753028D2C18F92B00F96FE9 /* Word.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275302902C18F92B00F96FE9 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753028E2C18F92B00F96FE9 /* Word.m */; };
 		275BE6F22C17AC3C000C63A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F12C17AC3C000C63A4 /* Foundation.framework */; };
 		275BE6F42C17AC42000C63A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE6F32C17AC42000C63A4 /* UIKit.framework */; };
@@ -109,69 +109,69 @@
 		27A759382C18FEB200D2D3DB /* olvr54b.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A758F02C18FEB100D2D3DB /* olvr54b.png */; };
 		27A759392C18FEB200D2D3DB /* olvr56b.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 27A758F12C18FEB200D2D3DB /* olvr56b.fnt */; };
 		27A7593A2C18FEB200D2D3DB /* olvr105b.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A758F22C18FEB200D2D3DB /* olvr105b.png */; };
-		27A92CD02C179527006A3657 /* OKPoEMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CCE2C179527006A3657 /* OKPoEMM.h */; };
+		27A92CD02C179527006A3657 /* OKPoEMM.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CCE2C179527006A3657 /* OKPoEMM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CD12C179527006A3657 /* OKPoEMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CCF2C179527006A3657 /* OKPoEMM.m */; };
-		27A92CD42C179572006A3657 /* OKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CD22C179572006A3657 /* OKNavigationController.h */; };
+		27A92CD42C179572006A3657 /* OKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CD22C179572006A3657 /* OKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CD52C179572006A3657 /* OKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CD32C179572006A3657 /* OKNavigationController.m */; };
-		27A92CD82C1795C4006A3657 /* OKPoEMMProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CD62C1795C4006A3657 /* OKPoEMMProperties.h */; };
+		27A92CD82C1795C4006A3657 /* OKPoEMMProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CD62C1795C4006A3657 /* OKPoEMMProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CD92C1795C4006A3657 /* OKPoEMMProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CD72C1795C4006A3657 /* OKPoEMMProperties.m */; };
-		27A92CE42C179662006A3657 /* DejalActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CE22C179662006A3657 /* DejalActivityView.h */; };
+		27A92CE42C179662006A3657 /* DejalActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CE22C179662006A3657 /* DejalActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CE52C179662006A3657 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CE32C179662006A3657 /* DejalActivityView.m */; };
-		27A92CE82C179894006A3657 /* OKRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CE62C179894006A3657 /* OKRegistration.h */; };
+		27A92CE82C179894006A3657 /* OKRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CE62C179894006A3657 /* OKRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CE92C179894006A3657 /* OKRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CE72C179894006A3657 /* OKRegistration.m */; };
-		27A92CEE2C179912006A3657 /* OKLimitedEdition.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CEC2C179912006A3657 /* OKLimitedEdition.h */; };
+		27A92CEE2C179912006A3657 /* OKLimitedEdition.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CEC2C179912006A3657 /* OKLimitedEdition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CEF2C179912006A3657 /* OKLimitedEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CED2C179912006A3657 /* OKLimitedEdition.m */; };
-		27A92CF22C17991F006A3657 /* OKPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF02C17991F006A3657 /* OKPublisher.h */; };
+		27A92CF22C17991F006A3657 /* OKPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF02C17991F006A3657 /* OKPublisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CF32C17991F006A3657 /* OKPublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CF12C17991F006A3657 /* OKPublisher.m */; };
-		27A92CF62C1799B8006A3657 /* OKNewAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF42C1799B8006A3657 /* OKNewAccount.h */; };
+		27A92CF62C1799B8006A3657 /* OKNewAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF42C1799B8006A3657 /* OKNewAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CF72C1799B8006A3657 /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CF52C1799B8006A3657 /* OKNewAccount.m */; };
-		27A92CFA2C1799C9006A3657 /* OKRequestPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF82C1799C9006A3657 /* OKRequestPassword.h */; };
+		27A92CFA2C1799C9006A3657 /* OKRequestPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CF82C1799C9006A3657 /* OKRequestPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CFB2C1799C9006A3657 /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CF92C1799C9006A3657 /* OKRequestPassword.m */; };
-		27A92CFE2C1799E4006A3657 /* OKResetPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CFC2C1799E4006A3657 /* OKResetPassword.h */; };
+		27A92CFE2C1799E4006A3657 /* OKResetPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92CFC2C1799E4006A3657 /* OKResetPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92CFF2C1799E4006A3657 /* OKResetPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92CFD2C1799E4006A3657 /* OKResetPassword.m */; };
-		27A92D022C1799F2006A3657 /* OKSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D002C1799F2006A3657 /* OKSignIn.h */; };
+		27A92D022C1799F2006A3657 /* OKSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D002C1799F2006A3657 /* OKSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D032C1799F2006A3657 /* OKSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D012C1799F2006A3657 /* OKSignIn.m */; };
-		27A92D062C179ADF006A3657 /* OKInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D042C179ADF006A3657 /* OKInfoView.h */; };
+		27A92D062C179ADF006A3657 /* OKInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D042C179ADF006A3657 /* OKInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D072C179ADF006A3657 /* OKInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D052C179ADF006A3657 /* OKInfoView.m */; };
-		27A92D0A2C179AEA006A3657 /* OKInfoViewProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D082C179AEA006A3657 /* OKInfoViewProperties.h */; };
+		27A92D0A2C179AEA006A3657 /* OKInfoViewProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D082C179AEA006A3657 /* OKInfoViewProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D0B2C179AEA006A3657 /* OKInfoViewProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D092C179AEA006A3657 /* OKInfoViewProperties.m */; };
-		27A92D122C179CD1006A3657 /* OKAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D102C179CD1006A3657 /* OKAbout.h */; };
+		27A92D122C179CD1006A3657 /* OKAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D102C179CD1006A3657 /* OKAbout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D132C179CD1006A3657 /* OKAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D112C179CD1006A3657 /* OKAbout.m */; };
-		27A92D172C179CF1006A3657 /* OKInfoText.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D152C179CF1006A3657 /* OKInfoText.h */; };
+		27A92D172C179CF1006A3657 /* OKInfoText.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D152C179CF1006A3657 /* OKInfoText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D182C179CF1006A3657 /* OKInfoText.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D162C179CF1006A3657 /* OKInfoText.m */; };
-		27A92D1C2C179D05006A3657 /* OKMoreApps.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D1A2C179D05006A3657 /* OKMoreApps.h */; };
+		27A92D1C2C179D05006A3657 /* OKMoreApps.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D1A2C179D05006A3657 /* OKMoreApps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D1D2C179D05006A3657 /* OKMoreApps.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D1B2C179D05006A3657 /* OKMoreApps.m */; };
-		27A92D202C179D10006A3657 /* OKMoreAppsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D1E2C179D10006A3657 /* OKMoreAppsItem.h */; };
+		27A92D202C179D10006A3657 /* OKMoreAppsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D1E2C179D10006A3657 /* OKMoreAppsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D212C179D10006A3657 /* OKMoreAppsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D1F2C179D10006A3657 /* OKMoreAppsItem.m */; };
-		27A92D242C17A07F006A3657 /* OKGuestPoets.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D222C17A07F006A3657 /* OKGuestPoets.h */; };
+		27A92D242C17A07F006A3657 /* OKGuestPoets.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D222C17A07F006A3657 /* OKGuestPoets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D252C17A07F006A3657 /* OKGuestPoets.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D232C17A07F006A3657 /* OKGuestPoets.m */; };
-		27A92D292C17A095006A3657 /* OKGuestPoetsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D272C17A095006A3657 /* OKGuestPoetsHeader.h */; };
+		27A92D292C17A095006A3657 /* OKGuestPoetsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D272C17A095006A3657 /* OKGuestPoetsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D2A2C17A095006A3657 /* OKGuestPoetsHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D282C17A095006A3657 /* OKGuestPoetsHeader.m */; };
-		27A92D2D2C17A11F006A3657 /* OKShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D2B2C17A11F006A3657 /* OKShare.h */; };
+		27A92D2D2C17A11F006A3657 /* OKShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D2B2C17A11F006A3657 /* OKShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D2E2C17A11F006A3657 /* OKShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D2C2C17A11F006A3657 /* OKShare.m */; };
-		27A92D312C17A12A006A3657 /* OKShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D2F2C17A12A006A3657 /* OKShareButton.h */; };
+		27A92D312C17A12A006A3657 /* OKShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D2F2C17A12A006A3657 /* OKShareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D322C17A12A006A3657 /* OKShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D302C17A12A006A3657 /* OKShareButton.m */; };
-		27A92D362C17A163006A3657 /* OKShareItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D342C17A163006A3657 /* OKShareItem.h */; };
+		27A92D362C17A163006A3657 /* OKShareItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D342C17A163006A3657 /* OKShareItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D372C17A163006A3657 /* OKShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D352C17A163006A3657 /* OKShareItem.m */; };
-		27A92D3A2C17A16D006A3657 /* OKShareScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D382C17A16D006A3657 /* OKShareScrollView.h */; };
+		27A92D3A2C17A16D006A3657 /* OKShareScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D382C17A16D006A3657 /* OKShareScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D3B2C17A16D006A3657 /* OKShareScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D392C17A16D006A3657 /* OKShareScrollView.m */; };
-		27A92D3E2C17A2A3006A3657 /* OKUserTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D3C2C17A2A3006A3657 /* OKUserTexts.h */; };
+		27A92D3E2C17A2A3006A3657 /* OKUserTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D3C2C17A2A3006A3657 /* OKUserTexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D3F2C17A2A3006A3657 /* OKUserTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D3D2C17A2A3006A3657 /* OKUserTexts.m */; };
-		27A92D442C17A30B006A3657 /* OKCustomTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D422C17A30B006A3657 /* OKCustomTexts.h */; };
+		27A92D442C17A30B006A3657 /* OKCustomTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D422C17A30B006A3657 /* OKCustomTexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D452C17A30B006A3657 /* OKCustomTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D432C17A30B006A3657 /* OKCustomTexts.m */; };
-		27A92D482C17A330006A3657 /* OKTextComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D462C17A330006A3657 /* OKTextComposer.h */; };
+		27A92D482C17A330006A3657 /* OKTextComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D462C17A330006A3657 /* OKTextComposer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D492C17A330006A3657 /* OKTextComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D472C17A330006A3657 /* OKTextComposer.m */; };
-		27A92D4C2C17A33F006A3657 /* OKTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D4A2C17A33F006A3657 /* OKTwitter.h */; };
+		27A92D4C2C17A33F006A3657 /* OKTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D4A2C17A33F006A3657 /* OKTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D4D2C17A33F006A3657 /* OKTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D4B2C17A33F006A3657 /* OKTwitter.m */; };
-		27A92D502C17A34E006A3657 /* OKTwitterFeeds.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D4E2C17A34E006A3657 /* OKTwitterFeeds.h */; };
+		27A92D502C17A34E006A3657 /* OKTwitterFeeds.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D4E2C17A34E006A3657 /* OKTwitterFeeds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D512C17A34E006A3657 /* OKTwitterFeeds.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D4F2C17A34E006A3657 /* OKTwitterFeeds.m */; };
-		27A92D552C17A56D006A3657 /* OKPreloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D532C17A56D006A3657 /* OKPreloader.h */; };
+		27A92D552C17A56D006A3657 /* OKPreloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D532C17A56D006A3657 /* OKPreloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D562C17A56D006A3657 /* OKPreloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D542C17A56D006A3657 /* OKPreloader.m */; };
-		27A92D592C17A5B7006A3657 /* OKTextManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D572C17A5B7006A3657 /* OKTextManager.h */; };
+		27A92D592C17A5B7006A3657 /* OKTextManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D572C17A5B7006A3657 /* OKTextManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D5A2C17A5B7006A3657 /* OKTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D582C17A5B7006A3657 /* OKTextManager.m */; };
-		27A92D5D2C17A602006A3657 /* OKAppProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D5B2C17A602006A3657 /* OKAppProperties.h */; };
+		27A92D5D2C17A602006A3657 /* OKAppProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D5B2C17A602006A3657 /* OKAppProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D5E2C17A602006A3657 /* OKAppProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D5C2C17A602006A3657 /* OKAppProperties.m */; };
-		27A92D612C17A60C006A3657 /* OKImageManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D5F2C17A60C006A3657 /* OKImageManipulator.h */; };
+		27A92D612C17A60C006A3657 /* OKImageManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A92D5F2C17A60C006A3657 /* OKImageManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A92D622C17A60C006A3657 /* OKImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D602C17A60C006A3657 /* OKImageManipulator.m */; };
 		27A92DB12C17A6BA006A3657 /* OKAppProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27A92D642C17A6BA006A3657 /* OKAppProperties.plist */; };
 		27A92DB22C17A6BA006A3657 /* OKInfoView_Description_iphone.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27A92D652C17A6BA006A3657 /* OKInfoView_Description_iphone.txt */; };
@@ -237,6 +237,7 @@
 		27A92DEE2C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A92DAB2C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture-568h@2x.png */; };
 		27A92DEF2C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A92DAC2C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture.png */; };
 		27A92DF02C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A92DAD2C17A6BA006A3657 /* OKInfoView-iPhone-Backdrop-Texture@2x.png */; };
+		27AAE1D72C1901B900239192 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 275302912C18F9F100F96FE9 /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1111,6 +1112,7 @@
 				27A92D022C1799F2006A3657 /* OKSignIn.h in Headers */,
 				2753026C2C18F42700F96FE9 /* ES1Renderer.h in Headers */,
 				27A92D442C17A30B006A3657 /* OKCustomTexts.h in Headers */,
+				27AAE1D72C1901B900239192 /* AppDelegate.h in Headers */,
 				27A92CD42C179572006A3657 /* OKNavigationController.h in Headers */,
 				275302832C18F73000F96FE9 /* Texture2D.h in Headers */,
 				27A92D292C17A095006A3657 /* OKGuestPoetsHeader.h in Headers */,
