@@ -7,6 +7,7 @@
 //
 
 #import "OKAppProperties.h"
+#import <UIKit/UIKit.h>
 
 // The shared instance
 static OKAppProperties *sharedInstance = nil;

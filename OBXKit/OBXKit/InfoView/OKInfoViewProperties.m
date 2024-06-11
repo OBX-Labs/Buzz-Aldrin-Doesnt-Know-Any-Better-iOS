@@ -8,6 +8,7 @@
 
 #import "OKInfoViewProperties.h"
 #import "OKAppProperties.h"
+#import <UIKit/UIFont.h>
 
 static OKInfoViewProperties *sharedInstance;
 
