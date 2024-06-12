@@ -36,6 +36,7 @@
 		276D548F2C1256600006FB3F /* OBXKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 276D548E2C1256600006FB3F /* OBXKit.docc */; };
 		276D54952C1256600006FB3F /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D548A2C1256600006FB3F /* OBXKit.framework */; };
 		276D549A2C1256600006FB3F /* OBXKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D54992C1256600006FB3F /* OBXKitTests.m */; };
+		277120282C1902D200FCF7C8 /* ESRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753026E2C18F43600F96FE9 /* ESRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A758A82C18FE1800D2D3DB /* know in Resources */ = {isa = PBXBuildFile; fileRef = 27A758A72C18FE1800D2D3DB /* know */; };
 		27A758F32C18FEB200D2D3DB /* olvr124bu.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A758AB2C18FEB000D2D3DB /* olvr124bu.png */; };
 		27A758F42C18FEB200D2D3DB /* olvr85bu.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A758AC2C18FEB000D2D3DB /* olvr85bu.png */; };
@@ -1132,6 +1133,7 @@
 				27A92CEE2C179912006A3657 /* OKLimitedEdition.h in Headers */,
 				2753028B2C18F92500F96FE9 /* Sentence.h in Headers */,
 				27A92CD02C179527006A3657 /* OKPoEMM.h in Headers */,
+				277120282C1902D200FCF7C8 /* ESRenderer.h in Headers */,
 				27A92D062C179ADF006A3657 /* OKInfoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1183,6 +1185,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "Muhammad Shahrom Ali";
 				TargetAttributes = {
 					276D54892C1256600006FB3F = {
 						CreatedOnToolsVersion = 15.4;
@@ -1487,7 +1490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1545,7 +1548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
