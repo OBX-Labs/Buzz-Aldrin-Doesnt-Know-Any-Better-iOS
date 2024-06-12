@@ -13,6 +13,15 @@
 @class TextManager;
 @class OKPoEMM;
 
-@interface BuzzAldrinAppDelegate : AppDelegate
+@interface BuzzAldrinAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) OKPoEMM *poemm;
+@property (nonatomic, strong) EAGLView *eaglView;
+
+- (void) setDefaultValues;
+- (void) loadOKPoEMMInFrame:(CGRect)frame;
+- (BOOL) checkBundleVersion;
 
 @end
+    
