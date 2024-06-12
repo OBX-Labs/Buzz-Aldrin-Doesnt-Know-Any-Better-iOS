@@ -14,7 +14,8 @@
 		15A41CB81611F26C005A4632 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15A41CB71611F26C005A4632 /* Settings.bundle */; };
 		277978112BED5A79006582A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978102BED5A79006582A6 /* libz.tbd */; };
 		277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978122BED5A86006582A6 /* libsqlite3.tbd */; };
-		27A7593C2C18FF8600D2D3DB /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A7593B2C18FF8600D2D3DB /* OBXKit.framework */; };
+		27AA1C262C1A3A0400B03DA5 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */; };
+		27AA1C272C1A3A0400B03DA5 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C77BB3203F272F00A28CE7 /* Media.xcassets */; };
 		951C5068189056E90003744C /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5067189056E90003744C /* color.png */; };
 		951C506F1890576B0003744C /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C50691890576B0003744C /* death.png */; };
@@ -230,6 +231,20 @@
 		D2C3960A153C3A2300866071 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C39609153C3A2300866071 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2771202B2C1A367E00FCF7C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27AA1C272C1A3A0400B03DA5 /* OBXKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		15484C9215FE89F200E4EC5E /* olvr190b.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = olvr190b.fnt; sourceTree = "<group>"; };
 		15484C9315FE89F200E4EC5E /* olvr190b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olvr190b.png; sourceTree = "<group>"; };
@@ -238,7 +253,7 @@
 		15A41CB71611F26C005A4632 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		277978102BED5A79006582A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		277978122BED5A86006582A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		27A7593B2C18FF8600D2D3DB /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = OBXKit.framework; path = "/Users/muhammadshahromali/Library/Developer/Xcode/DerivedData/Know-ffsazfrkoeslvehgryuyfwiozrar/Build/Products/Debug-iphonesimulator/OBXKit.framework"; sourceTree = "<absolute>"; };
 		570E92952045A58E004526EF /* BuzzAldrin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzAldrin.entitlements; sourceTree = "<group>"; };
 		57C77BB3203F272F00A28CE7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
 		951C5067189056E90003744C /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
@@ -510,12 +525,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A7593C2C18FF8600D2D3DB /* OBXKit.framework in Frameworks */,
 				9560B49317202BEF005B681C /* Social.framework in Frameworks */,
 				9560B49117202BE1005B681C /* Accounts.framework in Frameworks */,
 				D2C3960A153C3A2300866071 /* CoreLocation.framework in Frameworks */,
 				D2C39608153C3A0900866071 /* MapKit.framework in Frameworks */,
 				D288B9771514F6B700AF514D /* CFNetwork.framework in Frameworks */,
+				27AA1C262C1A3A0400B03DA5 /* OBXKit.framework in Frameworks */,
 				D288B9751514F6A100AF514D /* MobileCoreServices.framework in Frameworks */,
 				277978112BED5A79006582A6 /* libz.tbd in Frameworks */,
 				277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */,
@@ -1115,7 +1130,7 @@
 		D2B5A577139E7A7400461428 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27A7593B2C18FF8600D2D3DB /* OBXKit.framework */,
+				27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */,
 				277978122BED5A86006582A6 /* libsqlite3.tbd */,
 				277978102BED5A79006582A6 /* libz.tbd */,
 				9560B49217202BEF005B681C /* Social.framework */,
@@ -1176,6 +1191,7 @@
 				D2B5A570139E7A7400461428 /* Sources */,
 				D2B5A571139E7A7400461428 /* Frameworks */,
 				D2B5A572139E7A7400461428 /* Resources */,
+				2771202B2C1A367E00FCF7C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1485,6 +1501,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/muhammadshahromali/Library/Developer/Xcode/DerivedData/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
@@ -1578,6 +1595,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/muhammadshahromali/Library/Developer/Xcode/DerivedData/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1628,6 +1646,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/muhammadshahromali/Library/Developer/Xcode/DerivedData/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
