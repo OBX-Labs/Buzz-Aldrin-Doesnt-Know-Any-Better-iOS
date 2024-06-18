@@ -16,6 +16,8 @@
 		277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978122BED5A86006582A6 /* libsqlite3.tbd */; };
 		27AA1C262C1A3A0400B03DA5 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */; };
 		27AA1C272C1A3A0400B03DA5 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27C9EACB2C2231E4004DAC3D /* OKPoEMMProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C9EACA2C2231E4004DAC3D /* OKPoEMMProperties.plist */; };
+		27C9EACD2C2235AD004DAC3D /* OKAppProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C9EACC2C2235AD004DAC3D /* OKAppProperties.plist */; };
 		57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C77BB3203F272F00A28CE7 /* Media.xcassets */; };
 		951C507818905B1A0003744C /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507518905B1A0003744C /* Icon-76.png */; };
 		951C507918905B1A0003744C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C507618905B1A0003744C /* Icon-120.png */; };
@@ -149,6 +151,8 @@
 		277978102BED5A79006582A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		277978122BED5A86006582A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		27AA1C252C1A3A0400B03DA5 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = OBXKit.framework; path = "/Users/muhammadshahromali/Library/Developer/Xcode/DerivedData/Know-ffsazfrkoeslvehgryuyfwiozrar/Build/Products/Debug-iphonesimulator/OBXKit.framework"; sourceTree = "<absolute>"; };
+		27C9EACA2C2231E4004DAC3D /* OKPoEMMProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OKPoEMMProperties.plist; sourceTree = "<group>"; };
+		27C9EACC2C2235AD004DAC3D /* OKAppProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OKAppProperties.plist; sourceTree = "<group>"; };
 		570E92952045A58E004526EF /* BuzzAldrin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzAldrin.entitlements; sourceTree = "<group>"; };
 		57C77BB3203F272F00A28CE7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
 		951C507518905B1A0003744C /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
@@ -312,6 +316,8 @@
 				D27FD11F139EA86600191796 /* Fonts */,
 				D27FD126139EA86600191796 /* Images */,
 				D27FD12F139EA86600191796 /* Poems */,
+				27C9EACA2C2231E4004DAC3D /* OKPoEMMProperties.plist */,
+				27C9EACC2C2235AD004DAC3D /* OKAppProperties.plist */,
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
@@ -586,12 +592,14 @@
 				D2A339CD1559AFE800EDC553 /* olvr40bu.fnt in Resources */,
 				D2A339CE1559AFE800EDC553 /* olvr40bu.png in Resources */,
 				D2A339CF1559AFE800EDC553 /* olvr50b.fnt in Resources */,
+				27C9EACD2C2235AD004DAC3D /* OKAppProperties.plist in Resources */,
 				D2A339D01559AFE800EDC553 /* olvr50b.png in Resources */,
 				D2A339D11559AFE800EDC553 /* olvr50bu.fnt in Resources */,
 				D2A339D21559AFE800EDC553 /* olvr50bu.png in Resources */,
 				D2A339D31559AFE800EDC553 /* olvr54b.fnt in Resources */,
 				D2A339D41559AFE800EDC553 /* olvr54b.png in Resources */,
 				D2A339D51559AFE800EDC553 /* olvr54bu.fnt in Resources */,
+				27C9EACB2C2231E4004DAC3D /* OKPoEMMProperties.plist in Resources */,
 				D2A339D61559AFE800EDC553 /* olvr54bu.png in Resources */,
 				D2A339D71559AFE800EDC553 /* olvr56b.fnt in Resources */,
 				D2A339D81559AFE800EDC553 /* olvr56b.png in Resources */,
