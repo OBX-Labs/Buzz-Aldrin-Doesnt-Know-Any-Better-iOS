@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OBXKit/OBXKit.xcodeproj">
+      location = "group:../OBXKit/OBXKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BuzzAldrin.xcodeproj">
