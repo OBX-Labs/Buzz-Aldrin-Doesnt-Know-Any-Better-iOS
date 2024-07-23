@@ -118,7 +118,7 @@
 		D2B5A57D139E7A7400461428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5A57C139E7A7400461428 /* CoreGraphics.framework */; };
 		D2B5A583139E7A7400461428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B5A581139E7A7400461428 /* InfoPlist.strings */; };
 		D2B5A586139E7A7400461428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5A585139E7A7400461428 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D2B5A589139E7A7500461428 /* BuzzAldrinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5A588139E7A7500461428 /* BuzzAldrinAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D2B5A589139E7A7500461428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5A588139E7A7500461428 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D2B5A6BD139E7DE300461428 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5A6B8139E7DE300461428 /* MessageUI.framework */; };
 		D2B5A6BE139E7DE300461428 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5A6B9139E7DE300461428 /* OpenGLES.framework */; };
 		D2B5A6BF139E7DE300461428 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5A6BA139E7DE300461428 /* QuartzCore.framework */; };
@@ -260,8 +260,7 @@
 		D2B5A582139E7A7400461428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2B5A584139E7A7400461428 /* BuzzAldrin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuzzAldrin-Prefix.pch"; sourceTree = "<group>"; };
 		D2B5A585139E7A7400461428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2B5A587139E7A7400461428 /* BuzzAldrinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuzzAldrinAppDelegate.h; sourceTree = "<group>"; };
-		D2B5A588139E7A7500461428 /* BuzzAldrinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzAldrinAppDelegate.m; sourceTree = "<group>"; };
+		D2B5A588139E7A7500461428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2B5A6B8139E7DE300461428 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D2B5A6B9139E7DE300461428 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D2B5A6BA139E7DE300461428 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -487,8 +486,7 @@
 			isa = PBXGroup;
 			children = (
 				570E92952045A58E004526EF /* BuzzAldrin.entitlements */,
-				D2B5A587139E7A7400461428 /* BuzzAldrinAppDelegate.h */,
-				D2B5A588139E7A7500461428 /* BuzzAldrinAppDelegate.m */,
+				D2B5A588139E7A7500461428 /* AppDelegate.m */,
 				D27FD11E139EA86600191796 /* Resources */,
 				D2B5A57F139E7A7400461428 /* Supporting Files */,
 			);
@@ -678,7 +676,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B5A586139E7A7400461428 /* main.m in Sources */,
-				D2B5A589139E7A7500461428 /* BuzzAldrinAppDelegate.m in Sources */,
+				D2B5A589139E7A7500461428 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,7 +769,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Know;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
@@ -911,7 +909,7 @@
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Know;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
@@ -949,7 +947,7 @@
 				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "BuzzAldrin/BuzzAldrin-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Know;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Buzz;
