@@ -16,6 +16,7 @@
 		271857B12C4E8F100001FE89 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271857AF2C4E8F100001FE89 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		277978112BED5A79006582A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978102BED5A79006582A6 /* libz.tbd */; };
 		277978132BED5A86006582A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 277978122BED5A86006582A6 /* libsqlite3.tbd */; };
+		27A377AE2C8EC3B600120E88 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A377AD2C8EC3B600120E88 /* UserNotifications.framework */; };
 		27C9EACB2C2231E4004DAC3D /* OKPoEMMProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C9EACA2C2231E4004DAC3D /* OKPoEMMProperties.plist */; };
 		27C9EACD2C2235AD004DAC3D /* OKAppProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C9EACC2C2235AD004DAC3D /* OKAppProperties.plist */; };
 		57C77BB4203F272F00A28CE7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C77BB3203F272F00A28CE7 /* Media.xcassets */; };
@@ -152,6 +153,7 @@
 		271857AF2C4E8F100001FE89 /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		277978102BED5A79006582A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		277978122BED5A86006582A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		27A377AD2C8EC3B600120E88 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		27C9EACA2C2231E4004DAC3D /* OKPoEMMProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OKPoEMMProperties.plist; sourceTree = "<group>"; };
 		27C9EACC2C2235AD004DAC3D /* OKAppProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OKAppProperties.plist; sourceTree = "<group>"; };
 		570E92952045A58E004526EF /* BuzzAldrin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzAldrin.entitlements; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A377AE2C8EC3B600120E88 /* UserNotifications.framework in Frameworks */,
 				9560B49317202BEF005B681C /* Social.framework in Frameworks */,
 				9560B49117202BE1005B681C /* Accounts.framework in Frameworks */,
 				D2C3960A153C3A2300866071 /* CoreLocation.framework in Frameworks */,
@@ -457,6 +460,7 @@
 		D2B5A577139E7A7400461428 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27A377AD2C8EC3B600120E88 /* UserNotifications.framework */,
 				271857AF2C4E8F100001FE89 /* OBXKit.framework */,
 				27020CA62C2306D4004FBBB9 /* OBXKit.framework */,
 				277978122BED5A86006582A6 /* libsqlite3.tbd */,
